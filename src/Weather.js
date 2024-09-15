@@ -38,30 +38,7 @@ export default function Weather() {
         </form>
             );
 
-            if (loaded) {
-                return (
-                    <div>
-                        {form}
-                        <ul>
-                            <span>
-                              {Math.round(weather.temperature)}°C  
-                            </span>
-                            <span>
-                              {weather.decription}  
-                            </span>
-                            <span>
-                                {weather.humidity}%
-                            </span>
-                            <span>
-                                {weather.wind}km/h
-                            </span>
-                        </ul>
-                    </div>
-                );
-            } else {
-                return form;
-            }
-            
+               
        </div>
 
 )}
